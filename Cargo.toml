@@ -10,7 +10,6 @@ documentation = "https://github.com/GTime/cqrs-eventsourcing/README.md"
 homepage = "https://github.com/GTime/cqrs-eventsourcing/README.md"
 repository = "https://github.com/GTime/cqrs-eventsourcing"
 
-license = "MIT"
 license-file = "LICENSE"
 
 keywords = ["cqrs", "event", "command", "aggregate", "eventsourcing"]
