@@ -1,0 +1,32 @@
+[package]
+name = "cqrs-eventsourcing"
+version = "0.1.0"
+authors = ["Godstime Israel <godstimeisrael66@gmail.com>"]
+edition = "2018"
+description = "A CQRS Event Sourcing library for Rust"
+
+readme = "README.md"
+documentation = "https://github.com/GTime/cqrs-eventsourcing/README.md"
+homepage = "https://github.com/GTime/cqrs-eventsourcing/README.md"
+repository = "https://github.com/GTime/cqrs-eventsourcing"
+
+license = "MIT"
+license-file = "LICENSE"
+
+keywords = ["cqrs", "event", "command", "aggregate", "eventsourcing"]
+categories = ["web-programming"]
+
+exclude = ["build/**/*.o", "doc/**/*.html", "/example", "/test", "*.bk", "/.vscode" ]
+
+
+[dependencies]
+serde = { version = "1.0.104", features = ["derive"]}
+serde_json = "1.0"
+chrono = "0.4.19"
+async-trait = "0.1.42"
+uuid = { version = "0.8", features = ["serde", "v4"] }
+futures = "0.3"
+
+[dev-dependencies]
+tokio = { version = "0.2", features = ["full"] }
+mongodb = "1.1.1"
