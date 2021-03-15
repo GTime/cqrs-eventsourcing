@@ -14,7 +14,6 @@ license-file = "LICENSE"
 
 keywords = ["cqrs", "event", "command", "aggregate", "eventsourcing"]
 categories = ["web-programming"]
-
 exclude = ["build/**/*.o", "doc/**/*.html", "/example", "/test", "*.bk", "/.vscode" ]
 
 
